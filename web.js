@@ -1,6 +1,6 @@
-var reader = fs.readFileSync('index.html');
+var rdr = fs.readFileSync('index.html');
 
-var fileContents = reader.toString();
+var fileContents = rdr.toString();
 
 var express = require('express');
 
