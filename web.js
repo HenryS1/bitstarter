@@ -1,4 +1,4 @@
-var reader = fs.readFileSync('index.html','r');
+var reader = fs.readFileSync('index.html');
 
 var fileContents = reader.toString();
 
